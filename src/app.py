@@ -10,7 +10,6 @@ import os
 from pathlib import Path
 
 def print_banner():
-    """打印标题"""
     print("=" * 60)
     print(f"  image-ocr  -  图片文字识别OCR工具")
     print(f"  🖼️ 图片处理")
@@ -18,7 +17,6 @@ def print_banner():
     print()
 
 def main():
-    """主函数"""
     print_banner()
     print("✨ 功能开发中，欢迎贡献代码！")
     print()
@@ -27,11 +25,8 @@ def main():
     print("  2. 等待处理完成")
     print("  3. 查看输出结果")
     print()
-    
-    # 在这里添加你的主要逻辑
     # TODO: 实现具体功能
-    
     input("\n按 Enter 键退出...")
-    
+
 if __name__ == "__main__":
     main()
