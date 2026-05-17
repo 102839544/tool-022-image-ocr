@@ -11,11 +11,8 @@
 ## 📦 安装
 
 ```bash
-# 克隆仓库
 git clone https://github.com/102839544/tool-022-image-ocr.git
 cd tool-022-image-ocr
-
-# 安装依赖
 pip install -r requirements.txt
 ```
 
